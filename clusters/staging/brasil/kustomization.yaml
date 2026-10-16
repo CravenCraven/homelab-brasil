@@ -6,3 +6,4 @@ resources:
   - open-webui.yaml
   - navidrome.yaml
   - ingress.yaml
+  - postgres.yaml
