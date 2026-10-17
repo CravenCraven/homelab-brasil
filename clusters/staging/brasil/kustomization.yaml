@@ -7,3 +7,4 @@ resources:
   - navidrome.yaml
   - ingress.yaml
   - postgres.yaml
+  - fsi-audio-pvc.yaml
