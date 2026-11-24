@@ -91,6 +91,9 @@ spec:
             # Portuguese first, since the library is Brazilian.
             - name: ND_DEFAULTLANGUAGE
               value: pt
+            # The demo login is shared, so nobody gets to change its password.
+            - name: ND_ENABLEUSEREDITING
+              value: "false"
           resources:
             requests:
               cpu: "100m"
